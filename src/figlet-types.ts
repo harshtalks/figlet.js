@@ -21,7 +21,7 @@ export type FontName =
   | "Small"
   | "Speed"
   | "Tinker-Toy"
-  | string; // Allow custom fonts
+  | (string & {}); // Allow custom fonts
 
 export type KerningMethods =
   | "default"
